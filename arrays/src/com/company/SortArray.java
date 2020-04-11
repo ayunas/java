@@ -13,7 +13,7 @@ public class SortArray {
 //        System.out.println(Arrays.toString(intArray));
 
         int[] sortedInts = sortIntegers(intArray);
-
+        
 
     }
 

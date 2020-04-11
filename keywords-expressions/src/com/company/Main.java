@@ -10,7 +10,6 @@ public class Main {
 
         int val = sum(score1,score2,score3);
         System.out.println(val);
-
     }
 
     public static int sum(int score1, int score2, int score3) {
