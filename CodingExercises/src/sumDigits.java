@@ -7,6 +7,8 @@ public class sumDigits {
 
         int sum = sumDigits(num);
         System.out.println(sum);
+        int sum2 = sumDigits(125);
+        System.out.println(sum2);
     }
 
 
