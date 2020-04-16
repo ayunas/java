@@ -60,10 +60,11 @@ public class Main {
 //        String name = doggy.getName();
 //        System.out.println(name);
 //        doggy.eat();
-        Static stuck = new Static("stuck in the middle");
-        Static still = new Static("still stuck with the chest");
-        still.printName();
-        stuck.printName();
+
+//        Static stuck = new Static("stuck in the middle");
+//        Static still = new Static("still stuck with the chest");
+//        still.printName();
+//        stuck.printName();
 
 
 
