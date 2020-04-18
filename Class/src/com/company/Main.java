@@ -3,6 +3,12 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        Car toyota = new Car();
+        toyota.setModel("prius");
+        System.out.println(toyota.getModel());
+
+
+
 //        Car porsche = new Car();
 //        Car lexus = new Car();
 ////        porsche.model = "Carerra";  bad practice (violates encapsulation) to allow direct manipulation of properties in a class.  should all be private.
