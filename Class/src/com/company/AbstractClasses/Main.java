@@ -8,9 +8,5 @@ class Main {
         Penguin kingpin = new Penguin("Kingpin");
         kingpin.speak();
         kingpin.eat();
-
-
     }
-
-
 }
