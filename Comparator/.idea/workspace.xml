@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79b04b92-62cf-4184-9cfd-eeb63117c889" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ap8S4xwJ9syCu1lS3nwr4wy3UB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RunManager" selected="Application.MethodReferenceOperator">
+    <configuration name="Chess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chess" />
+      <module name="Comparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Donkey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Donkey" />
+      <module name="Comparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodReferenceOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodReferenceOperator" />
+      <module name="Comparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Player" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Player" />
+      <module name="Comparator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MethodReferenceOperator" />
+        <item itemvalue="Application.Donkey" />
+        <item itemvalue="Application.Chess" />
+        <item itemvalue="Application.Player" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79b04b92-62cf-4184-9cfd-eeb63117c889" name="Default Changelist" comment="" />
+      <created>1587421171084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587421171084</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4371" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1587478003879">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2396" y="256" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-1020.59.1020.698/3200.23.1920.1057/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587421251135" />
+    <state x="4371" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1280.777/-1020.59.1020.699/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587478003879" />
+    <state width="729" height="868" key="GridCell.Tab.0.bottom" timestamp="1587483251458">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state width="729" height="868" key="GridCell.Tab.0.bottom/0.23.1280.727/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587480965609" />
+    <state width="729" height="868" key="GridCell.Tab.0.bottom/0.23.1280.728/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587483251458" />
+    <state width="1489" height="277" key="GridCell.Tab.0.bottom/0.23.1280.728/1280.23.1920.1057/-1920.-15.1920.1057@-1920.-15.1920.1057" timestamp="1587470560551" />
+    <state width="729" height="868" key="GridCell.Tab.0.bottom/0.23.1280.777/-1020.59.1020.698/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481546742" />
+    <state width="729" height="868" key="GridCell.Tab.0.bottom/0.23.1280.777/-1020.59.1020.699/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481200833" />
+    <state width="1489" height="277" key="GridCell.Tab.0.bottom/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587425328086" />
+    <state width="729" height="868" key="GridCell.Tab.0.bottom/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@3200.23.1920.989" timestamp="1587481850732" />
+    <state width="729" height="868" key="GridCell.Tab.0.center" timestamp="1587483251453">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state width="729" height="868" key="GridCell.Tab.0.center/0.23.1280.727/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587480965606" />
+    <state width="729" height="868" key="GridCell.Tab.0.center/0.23.1280.728/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587483251453" />
+    <state width="1489" height="277" key="GridCell.Tab.0.center/0.23.1280.728/1280.23.1920.1057/-1920.-15.1920.1057@-1920.-15.1920.1057" timestamp="1587470560550" />
+    <state width="729" height="868" key="GridCell.Tab.0.center/0.23.1280.777/-1020.59.1020.698/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481546741" />
+    <state width="729" height="868" key="GridCell.Tab.0.center/0.23.1280.777/-1020.59.1020.699/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481200831" />
+    <state width="1489" height="277" key="GridCell.Tab.0.center/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587425328084" />
+    <state width="729" height="868" key="GridCell.Tab.0.center/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@3200.23.1920.989" timestamp="1587481850729" />
+    <state width="729" height="868" key="GridCell.Tab.0.left" timestamp="1587483251452">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state width="729" height="868" key="GridCell.Tab.0.left/0.23.1280.727/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587480965605" />
+    <state width="729" height="868" key="GridCell.Tab.0.left/0.23.1280.728/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587483251452" />
+    <state width="1489" height="277" key="GridCell.Tab.0.left/0.23.1280.728/1280.23.1920.1057/-1920.-15.1920.1057@-1920.-15.1920.1057" timestamp="1587470560548" />
+    <state width="729" height="868" key="GridCell.Tab.0.left/0.23.1280.777/-1020.59.1020.698/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481546740" />
+    <state width="729" height="868" key="GridCell.Tab.0.left/0.23.1280.777/-1020.59.1020.699/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481200830" />
+    <state width="1489" height="277" key="GridCell.Tab.0.left/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587425328083" />
+    <state width="729" height="868" key="GridCell.Tab.0.left/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@3200.23.1920.989" timestamp="1587481850727" />
+    <state width="729" height="868" key="GridCell.Tab.0.right" timestamp="1587483251457">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state width="729" height="868" key="GridCell.Tab.0.right/0.23.1280.727/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587480965608" />
+    <state width="729" height="868" key="GridCell.Tab.0.right/0.23.1280.728/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587483251457" />
+    <state width="1489" height="277" key="GridCell.Tab.0.right/0.23.1280.728/1280.23.1920.1057/-1920.-15.1920.1057@-1920.-15.1920.1057" timestamp="1587470560550" />
+    <state width="729" height="868" key="GridCell.Tab.0.right/0.23.1280.777/-1020.59.1020.698/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481546742" />
+    <state width="729" height="868" key="GridCell.Tab.0.right/0.23.1280.777/-1020.59.1020.699/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587481200832" />
+    <state width="1489" height="277" key="GridCell.Tab.0.right/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@1280.23.1920.1057" timestamp="1587425328085" />
+    <state width="729" height="868" key="GridCell.Tab.0.right/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@3200.23.1920.989" timestamp="1587481850730" />
+    <state x="3734" y="115" key="SettingsEditor" timestamp="1587477969443">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3734" y="115" key="SettingsEditor/0.23.1280.777/-1020.59.1020.699/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587477969443" />
+    <state x="3779" y="352" key="com.intellij.ide.util.TipDialog" timestamp="1587481637860">
+      <screen x="3200" y="23" width="1920" height="989" />
+    </state>
+    <state x="3779" y="352" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1020.59.1020.741/3200.23.1920.989/1280.23.1920.1057@3200.23.1920.989" timestamp="1587481637860" />
+    <state x="3517" y="122" key="new project wizard" timestamp="1587483248167">
+      <screen x="3200" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3517" y="122" key="new project wizard/0.23.1280.728/-1020.59.1020.741/3200.23.1920.1057/1280.23.1920.1057@3200.23.1920.1057" timestamp="1587483248167" />
+  </component>
+</project>
