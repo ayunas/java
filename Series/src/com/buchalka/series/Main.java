@@ -3,6 +3,8 @@ package com.buchalka.series;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println(Series.fibonacci(10));
+
 //        Series s = new Series();
 //        int nth = (int) s.fibonacci(10);
 //        System.out.println(nth);
