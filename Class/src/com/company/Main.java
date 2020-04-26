@@ -19,6 +19,15 @@ public class Main {
 
         finalies.forEach(f -> System.out.println(f.getInfo()));
 
+        Password p = new Password(123);
+        p.storePassword();
+        p.letMeIn(1243);
+        p.letMeIn(123);
+
+
+
+
+
 
 
 

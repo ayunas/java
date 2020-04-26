@@ -20,5 +20,10 @@ public class Final {
         finalInstance.put("Instance #",Integer.toString(this.instanceNum));
         return finalInstance;
     }
+
+    public static void main(String[] args) {
+//        Math mathy = new Math();
+    }
+
 }
 
