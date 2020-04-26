@@ -30,6 +30,19 @@ public class Bank {
         System.out.println(amirAccount.balance);
         amirAccount.withdraw(200);
         System.out.println(amirAccount.balance);
-    }
+        ArrayList<Account> accounts = bank.getAccounts();
 
+//        accounts.forEach(acct -> System.out.println("Account Name : " + acct.accountName + " Account Number : " + acct.getAccountNumber() + " Account Balance: " + acct.balance));
+//        for(Account acct : accounts) {
+//            System.out.println(acct.getAccountInfo());
+//        }
+        
+        accounts.forEach(acct -> System.out.println(acct.getAccountInfo()));
+
+
+
+
+
+
+    }
 }
