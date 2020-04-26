@@ -9,7 +9,7 @@ public class League<T> {
 
 
     void addTeam(T team) {
-        this.sports.add(team);
+//        this.sports.add(team);
     }
 
     void showLeague() {

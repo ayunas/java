@@ -17,6 +17,11 @@ public class Computer {
         this.motherboard = motherboard;
     }
 
+    void showStats() {
+        System.out.println(this.cpu.speed);
+        System.out.println(this.motherboard.type);
+    }
+
     static class CPU {
         private double speed;
         private int cores;
@@ -24,6 +29,10 @@ public class Computer {
         CPU(double speed, int cores) {
             this.speed = speed;
             this.cores = cores;
+        }
+
+        void showStats() {
+//            Computer.this.showStats();
         }
 
         public double getSpeed() {

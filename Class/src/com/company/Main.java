@@ -1,11 +1,17 @@
-package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
-        Car toyota = new Car();
-        toyota.setModel("prius");
-        System.out.println(toyota.getModel());
+        Private p = new Private();
+        System.out.println(p.num1);
+//      System.out.println(p.num2); will not work. num2 is a private instance variable.
+        System.out.println(p.getNum2());
+
+
+
+
+//        Car toyota = new Car();
+//        toyota.setModel("prius");
+//        System.out.println(toyota.getModel());
 
 
 
