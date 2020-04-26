@@ -2,26 +2,28 @@ package com.company.bank;
 
 import java.util.ArrayList;
 
-public class Bank {
-    final String bankName;
-    ArrayList<Account> accounts = new ArrayList<>();
+public class Bank implements TDBank {
+//    final String bankName;
+//    ArrayList<Account> accounts = new ArrayList<>();
 
-    Bank(String bankName) {
-        this.bankName = bankName;
-    }
+//    Bank(String bankName) {
+//        this.bankName = bankName;
+//    }
 
-    Account addAccount(String customerName) {
+    @Override
+    public Account addAccount(String customerName) {
         Account account = new Account(customerName);
         this.accounts.add(account);
         return account;
     }
 
-    ArrayList<Account> getAccounts() {
+    @Override
+    public ArrayList<Account> getAccounts() {
         return this.accounts;
     }
 
     public static void main(String[] args) {
-        Bank bank = new Bank("TD");
+        Bank bank = new Bank();
         Account amirAccount = bank.addAccount("amir");
         System.out.println(amirAccount.getAccountNumber());
         Account suzieAcct = bank.addAccount("suzie");
@@ -36,7 +38,7 @@ public class Bank {
 //        for(Account acct : accounts) {
 //            System.out.println(acct.getAccountInfo());
 //        }
-        
+
         accounts.forEach(acct -> System.out.println(acct.getAccountInfo()));
 
 
