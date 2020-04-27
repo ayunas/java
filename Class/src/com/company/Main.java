@@ -7,22 +7,25 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Final f1 = new Final("f1");
-        Final f2 = new Final("f2");
-        Final f3 = new Final("f3");
-        Final f4 = new Final("f4");
-        Final f5 = new Final("f5");
+        ImmutableStudent student = new ImmutableStudent("amir",12345);
+        System.out.println(student.getInfo());
 
-        System.out.println(Final.classCounter);
-        ArrayList<Final> finalies = new ArrayList<>();
-        finalies.addAll(Arrays.asList(f1,f2,f3,f4,f5));
-
-        finalies.forEach(f -> System.out.println(f.getInfo()));
-
-        Password p = new Password(123);
-        p.storePassword();
-        p.letMeIn(1243);
-        p.letMeIn(123);
+//        Final f1 = new Final("f1");
+//        Final f2 = new Final("f2");
+//        Final f3 = new Final("f3");
+//        Final f4 = new Final("f4");
+//        Final f5 = new Final("f5");
+//
+//        System.out.println(Final.classCounter);
+//        ArrayList<Final> finalies = new ArrayList<>();
+//        finalies.addAll(Arrays.asList(f1,f2,f3,f4,f5));
+//
+//        finalies.forEach(f -> System.out.println(f.getInfo()));
+//
+//        Password p = new Password(123);
+//        p.storePassword();
+//        p.letMeIn(1243);
+//        p.letMeIn(123);
 
 
 
