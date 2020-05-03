@@ -11,7 +11,7 @@ public class Counter {
 }
 
 class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Counter counter = new Counter();
         RThread runnable = new RThread(counter);
         Thread th1 = new Thread(runnable);
@@ -19,7 +19,11 @@ class Main {
         Thread th3 = new Thread(runnable);
 
         th1.start();
-//        th1.join();
+        try {
+            th1.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         th2.start();
 //        th2.join();
         th3.start();
