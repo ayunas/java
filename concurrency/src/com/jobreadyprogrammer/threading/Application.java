@@ -1,4 +1,4 @@
-package com.jobready.threading;
+package com.jobreadyprogrammer.threading;
 
 public class Application {
 
@@ -56,8 +56,6 @@ class RTask implements Runnable {
     RTask(String name) {
         this.name = name;
     }
-
-
 
     @Override
     public void run() {
