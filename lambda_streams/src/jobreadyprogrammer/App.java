@@ -1,6 +1,6 @@
 package jobreadyprogrammer;
 
-public class App {
+public class App<A> {
 
     public static void main(String[] args) {
         Human tom = new Human();
@@ -23,9 +23,7 @@ public class App {
         });
 
         Walkable lambdawalk = () -> System.out.println("lambda walks");
-
         walky(lambdawalk);
-
     }
 
     static void walky(Walkable walker) {
