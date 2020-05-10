@@ -1,4 +1,4 @@
-package jobreadyprogrammer.builtin;
+package jobreadyprogrammer.car;
 
 public class Car {
     String make;
