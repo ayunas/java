@@ -136,12 +136,18 @@ public class Main {
         System.out.println(divText);
 
         //1. create a regex
-        String divRegex = "<div>(.*)</div>";
+        String divRegex = "<div>(.*?)</div>";
         //2. create a pattern object. pass in the regex.
         Pattern divPattern = Pattern.compile(divRegex,Pattern.DOTALL);  //The regular expression . matches any character except a line terminator unless the DOTALL flag is specified.
         //3. create a matcher object off of the pattern object just created.  pass in some text for the matching
         Matcher divMatcher = divPattern.matcher(divText);
         System.out.println("div matcher : " + divMatcher.matches());
+        divMatcher.reset();
+
+        while(divMatcher.find()) {
+            System.out.println("Found a div tag: " + divMatcher.group());
+        }
+
 
 
 
