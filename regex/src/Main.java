@@ -148,6 +148,63 @@ public class Main {
             System.out.println("Found a div tag: " + divMatcher.group());
         }
 
+        String groupRegex = "([abc]){3}";
+
+        System.out.println("abc".matches(groupRegex));
+        System.out.println("abc".replaceAll(groupRegex,"xyz"));
+
+        System.out.println("harry".replaceAll("[H|h]arry","Larry")); //or regex
+
+        String regexNot = "t[^v]"; // match a t followed by anything OTHER than a v
+
+        String positiveLookahead = "a(?=.*\\d)"; //a followed by anything ending with a d
+        String andy = "annnnnnnnnnnnnnnnnnnn1";
+
+        Pattern posPattern = Pattern.compile(positiveLookahead);
+        Matcher lookMatcher = posPattern.matcher(andy);
+        System.out.println("look ahead matched? " + lookMatcher.matches());
+
+        boolean found = Pattern.compile("[a-z]+,")
+                .matcher("bat, cat, dog, fox")
+                .find();
+        System.out.println(found);
+
+        boolean positiveLookupFound = Pattern.compile("\\d+(?=\\scm)").matcher("200 cm").find();  //positive lookahead to find a number ending with a space \s cm
+        System.out.println(positiveLookupFound);
+
+        Pattern positiveLookupPattern = Pattern.compile(".(?=y)"); //find any single character preceding a y
+        Matcher positiveLookupMatcher = positiveLookupPattern.matcher("sky, cry, sigh, guy, buy, my, my, my");
+
+        while (positiveLookupMatcher.find()) { //whenever the matcher comes across a regex match, pring the most recently captured group
+            System.out.println(positiveLookupMatcher.group());
+        }
+
+        String carModels = "m3, lx470, s500, 350z, 300zx, maxima, taurus.";
+        String carsRegex = "";
+        Pattern carsPattern = Pattern.compile(carsRegex);
+        Matcher carsMatcher = carsPattern.matcher(carModels);
+
+
+        String phoneRegex = "\\((\\d){3}\\)\\s*(\\d){3}-?(\\d){4}$";
+        System.out.println("(123)456-7899".matches(phoneRegex));
+
+        //match a visa number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
