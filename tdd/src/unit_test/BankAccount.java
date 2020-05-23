@@ -34,6 +34,11 @@ public class BankAccount {
         return accountType;
     }
 
+    boolean isChecking() {
+        return this.accountType == "checking";
+    }
+
+
     public static void main(String[] args) {
         BankAccount acct = new BankAccount("amir","yunas",100.00,"checking");
         System.out.println(acct.getBalance());
