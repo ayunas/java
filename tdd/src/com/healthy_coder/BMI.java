@@ -3,6 +3,7 @@ package com.healthy_coder;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class BMI {
     private static final double BMI_THRESHOLD = 25.0;
@@ -13,35 +14,46 @@ public class BMI {
         return (bmi < BMI_THRESHOLD) ? false : true;
     }
 
-    Coder lowBMI(ArrayList<Coder> coders) {
-        return new Coder("amir", new String[3],3);
+    static Coder lowBMI(List<Coder> coders) {
+        //find the lowest BMI of all coders in the list.  calc bmi for each one.  push each value to an array, and find the min.
+        double[] bmiReadings = new double[coders.size()];
+
+
+        for (int i=0; i<coders.size(); i++) {
+            bmiReadings[i] = calcBMI(coders.get(i));
+        }
+        System.out.println(Arrays.toString(bmiReadings));
+
+        return coders.get(0);
     }
 
+    static double calcBMI(Coder coder) {
+        //BMI = 703 * (lbs / inches^2)
+        System.out.println(coder);
+        double height = coder.getHeight();
+        double weight = coder.getWeight();
+//        System.out.println(height);
+//        System.out.println(weight);
+
+        if(height == 0.0) throw new ArithmeticException();
+        double bmi = 703 * (weight / Math.pow(height,2));
+        System.out.println(coder.getName() + " " + bmi);
+        return Math.round(bmi);
+    }
 
     public static void main(String[] args) {
         List<Coder> coders = new ArrayList<>();
-        String[] skills = {"javascript","python","java","regex"};
-        coders.add(new Coder("amir",new String[]{"js","py","java"},4));
+
         String[] names = {"amir","christian","julian","sabitha","nancy"};
+
+        Random rand = new Random();
+
         for (String n : names) {
-            coders.add(new Coder(n,new String[]{"html","css","js"},1));
+            int randomHeight = rand.ints(1,60,72).findFirst().getAsInt();
+            int randomWeight = rand.ints(1,100,400).findFirst().getAsInt();
+            coders.add(new Coder(n,new String[]{"html","css","js"},1,randomHeight,randomWeight));
         }
 
-        System.out.println(coders);
-
-
-
-//        String[] skilly = new String[3];
-//        skilly[0] = "python";
-//        skilly[1] = "react";
-//        skilly[2] = "redux";
-//
-//        System.out.println(Arrays.toString(skilly));
-//        System.out.println(Arrays.toString(skills));
-
-        Coder amir = new Coder("amir", new String[]{"js,", "py", "java", "rgx"},3);
+        lowBMI(coders);
     }
-
-
-
 }

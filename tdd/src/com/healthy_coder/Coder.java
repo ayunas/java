@@ -7,11 +7,35 @@ public class Coder {
     private String name;
     private String[] skills;
     private int experience;
+    private double height;
+    private double weight;
 
-    Coder(String name, String[] skills, int experience) {
+    public Coder(String name, String[] skills, int experience, double height, double weight) {
         this.name = name;
         this.skills = skills;
         this.experience = experience;
+        this.height = height;
+        this.weight = weight;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String[] getSkills() {
+        return skills;
+    }
+
+    public int getExperience() {
+        return experience;
     }
 
     @Override
@@ -20,6 +44,8 @@ public class Coder {
         coder.put("name", this.name);
         coder.put("skills", Arrays.toString(this.skills));
         coder.put("experience",Integer.toString(this.experience));
+        coder.put("height",Double.toString(this.height));
+        coder.put("weight",Double.toString(this.weight));
         return coder.toString();
     }
 }
