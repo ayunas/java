@@ -38,9 +38,6 @@ public class Palindrome {
         return s1.equals(s2); // == only for reference comparison of memory address of objects.
     }
 
-
-
-
     public static void main(String[] args) {
         System.out.println(isPalindome("dad"));
     }

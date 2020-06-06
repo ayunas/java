@@ -8,16 +8,15 @@ import java.util.Random;
 public class BMI {
     private static final double BMI_THRESHOLD = 25.0;
 
-    boolean dietNeeded(double weight, double height) {
+    public boolean dietNeeded(double weight, double height) {
         if (height == 0) throw new ArithmeticException();
-        double bmi = weight / Math.pow(height,2);
+        double bmi = 703 *  (weight / Math.pow(height,2));
         return (bmi < BMI_THRESHOLD) ? false : true;
     }
 
-    static Coder lowBMI(List<Coder> coders) {
+    static com.healthy_coder.Coder lowBMI(List<com.healthy_coder.Coder> coders) {
         //find the lowest BMI of all coders in the list.  calc bmi for each one.  push each value to an array, and find the min.
         double[] bmiReadings = new double[coders.size()];
-
 
         for (int i=0; i<coders.size(); i++) {
             bmiReadings[i] = calcBMI(coders.get(i));
@@ -27,7 +26,7 @@ public class BMI {
         return coders.get(0);
     }
 
-    static double calcBMI(Coder coder) {
+    public static double calcBMI(com.healthy_coder.Coder coder) {
         //BMI = 703 * (lbs / inches^2)
         System.out.println(coder);
         double height = coder.getHeight();
@@ -42,16 +41,16 @@ public class BMI {
     }
 
     public static void main(String[] args) {
-        List<Coder> coders = new ArrayList<>();
+        List<com.healthy_coder.Coder> coders = new ArrayList<>();
 
         String[] names = {"amir","christian","julian","sabitha","nancy"};
 
         Random rand = new Random();
 
         for (String n : names) {
-            int randomHeight = rand.ints(1,60,72).findFirst().getAsInt();
-            int randomWeight = rand.ints(1,100,400).findFirst().getAsInt();
-            coders.add(new Coder(n,new String[]{"html","css","js"},1,randomHeight,randomWeight));
+//            int randomHeight = rand.ints(1,60,72).findFirst().getAsInt();
+//            int randomWeight = rand.ints(1,100,400).findFirst().getAsInt();
+            coders.add(new com.healthy_coder.Coder(n,new String[]{"html","css","js"},1,randomHeight,randomWeight));
         }
 
         lowBMI(coders);

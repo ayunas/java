@@ -7,7 +7,6 @@ public class AgeChecker {
         thresholdAge = age;
     }
 
-
     void checkAge(int age) {
         if (age < thresholdAge) {
             System.out.println("Below the mark: " + "Required age : " + thresholdAge + " Actual age : " + age);

@@ -13,11 +13,5 @@ public class App {
 
         AgeChecker checker = new AgeChecker(threshold);
         checker.checkAge(age);
-
-
-
     }
-
-
-
 }
