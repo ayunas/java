@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e53fa560-d11c-4d23-81a2-9c715cbfccbf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1dL4kUA1MtvdorSYoJ8HJyuc7Dj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager">
+    <configuration name="JavaClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaClass" />
+      <module name="java_scratch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JavaClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e53fa560-d11c-4d23-81a2-9c715cbfccbf" name="Default Changelist" comment="" />
+      <created>1592191182387</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592191182387</updated>
+      <workItem from="1592191183609" duration="643000" />
+      <workItem from="1592216257595" duration="366000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="599" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1592191216376">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="599" y="240" key="#com.intellij.ide.util.MemberChooser/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1592191216376" />
+    <state width="1514" height="270" key="GridCell.Tab.0.bottom" timestamp="1592194502994">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1514" height="270" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1592194502994" />
+    <state width="1514" height="270" key="GridCell.Tab.0.center" timestamp="1592194502993">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1514" height="270" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1592194502993" />
+    <state width="1514" height="270" key="GridCell.Tab.0.left" timestamp="1592194502993">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1514" height="270" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1592194502993" />
+    <state width="1514" height="270" key="GridCell.Tab.0.right" timestamp="1592194502993">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state width="1514" height="270" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1041@0.23.1792.1041" timestamp="1592194502993" />
+    <state x="238" y="291" key="SettingsEditor" timestamp="1592216550897">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="238" y="291" key="SettingsEditor/0.23.1920.1057/-1344.23.1344.773@0.23.1920.1057" timestamp="1592216550897" />
+  </component>
+</project>
